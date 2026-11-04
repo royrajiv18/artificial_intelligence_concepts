@@ -1,2 +1,3 @@
-AI is a science of making machines perform tasks that normally requires human intelligence
-Machine leearning is when machine learns from lots and lots of example sets
+- AI is a science of making machines perform tasks that normally requires human intelligence
+- Machine leearning is when machine learns from lots and lots of example sets
+- Transformers concept and Attention is all you need (2017)
