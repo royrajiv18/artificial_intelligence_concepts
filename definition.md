@@ -5,5 +5,6 @@
 - Generative AI - Generate content (multi modal - text, image, video)
 - Search engine - Retrieve info; LLMs - Generate response
 - Search engine vs LLMs-
-- Google: Question -> search an index -> rank relevant documents -> return results
+- Google: Question -> search an index -> rank relevant documents -> return results; //Crawlers/Spiders checks the internet always and rank the index
 - ChatGPT - Prompt -> Learnt Patterns -> Predicts next text -> generate response
+  
