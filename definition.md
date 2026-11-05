@@ -3,3 +3,4 @@
 - Transformers concept and Attention is all you need (2017)
 - LLMs(Large language models)- transformers trained on very large data
 - Generative AI - Generate content (multi modal - text, image, video)
+- Search engine - Retrieve info; LLMs - Generate response
