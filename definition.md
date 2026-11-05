@@ -2,3 +2,4 @@
 - Machine leearning is when machine learns from lots and lots of example sets
 - Transformers concept and Attention is all you need (2017)
 - LLMs(Large language models)- transformers trained on very large data
+- Generative AI - Generate content (multi modal - text, image, video)
