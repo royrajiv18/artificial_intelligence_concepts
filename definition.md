@@ -7,4 +7,6 @@
 - Search engine vs LLMs-
 - Google: Question -> search an index -> rank relevant documents -> return results; //Crawlers/Spiders checks the internet always and rank the index
 - ChatGPT - Prompt -> Learnt Patterns -> Predicts next text -> generate response
+
+- What knowledge does LLM contains - A trained Neural Network contains a very large collection of numbers called parameters or weights. During training, these numbers are repeatedly adjusted. 
   
