@@ -12,4 +12,6 @@
 
 - Base model - It is a model trained to predict next token or text
 - AI Assistant - Base Model + web search + Files + instruction tuning + human feedbacks + memory + retrieval + tool access + system instructions + safety training + content filters + conversation management + guard rail + security + auth
+- Inference (vs Training) - The process of giving the information back after prompt is inference.
+- Hallucination - A hallucination occurs when an AI model generates information that appears plausible, but is unsupported, incorrect, misleading or fabricated.
   
