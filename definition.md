@@ -11,4 +11,5 @@
 - What knowledge does LLM contains - A trained Neural Network contains a very large collection of numbers called parameters or weights. During training, these numbers are repeatedly adjusted.
 
 - Base model - It is a model trained to predict next token or text
+- AI Assistant - Base Model + web search + Files + instruction tuning + human feedbacks + memory + retrieval + tool access + system instructions + safety training + content filters + conversation management + guard rail + security + auth
   
