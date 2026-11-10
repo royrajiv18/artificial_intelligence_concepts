@@ -1,5 +1,5 @@
 - AI is a science of making machines perform tasks that normally requires human intelligence
-- Machine leearning is when machine learns from lots and lots of example sets
+- Machine learning is when machine learns from lots and lots of example sets
 - Transformers concept and Attention is all you need (2017)
 - LLMs(Large language models)- transformers trained on very large data
 - Generative AI - Generate content (multi modal - text, image, video)
@@ -14,5 +14,5 @@
 - AI Assistant - Base Model + web search + Files + instruction tuning + human feedbacks + memory + retrieval + tool access + system instructions + safety training + content filters + conversation management + guard rail + security + auth
 - Inference (vs Training) - The process of giving the information back after prompt is inference.
 - Hallucination - A hallucination occurs when an AI model generates information that appears plausible, but is unsupported, incorrect, misleading or fabricated.
-- RAG - Retrieval Augmented Generation - generate based on specific data retrieval 
+- RAG - Retrieval Augmented Generation - generate based on specific data retrieval - LLMs + extra private info
   
