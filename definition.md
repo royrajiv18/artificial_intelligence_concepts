@@ -17,6 +17,7 @@
 - RAG - Retrieval Augmented Generation - generate based on specific data retrieval - LLMs + extra private info
 - Sub word tokenization - word tokenization creates a very lengthy vocabulary; character tokenization creates a very long sequences; subword is a balance of both
 - Vocabulary and Token Id - The vocabulary is the collection of tokens that the tokenizer knows how to represent directly. Ex - 
-Token - "the", "is", "Java", "script", ".", "ing"
+Token - "the", "is", "Java", "script", ".", "ing".
 Id - 10, 11, 12, 13, 14, 15
+- Byte Pair Encoding - BPE builds a vocabulary by repeatedly merging frequently occuring neighbouring pieces.
   
