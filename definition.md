@@ -20,4 +20,6 @@
 Token - "the", "is", "Java", "script", ".", "ing".
 Id - 10, 11, 12, 13, 14, 15
 - Byte Pair Encoding - BPE builds a vocabulary by repeatedly merging frequently occuring neighbouring pieces.
+- Context window - A context window is the amount of tokenised information a model can process within a request or active generation context. A language model does not have unlimited working memory, every model has a limit on how many tokens it can process at once. This is called context window. 
+- Context may include - system instructions, current prompt, previous messages, uploaded document context, retrieved information, tool outputs, the model's generated response. All of these consume tokens.
   
