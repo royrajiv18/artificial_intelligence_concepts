@@ -26,5 +26,6 @@ Id - 10, 11, 12, 13, 14, 15
 - possible strategies include - removing older conversations, summarising previous messages, retrieving only relevant sections, splitting the work into multiple requests
 - visible conversation in the chat interface and the exact text in the model's context are not always identical. Every model has maximum context length.
 - Vectorisation - vectorisation is the process of converting information(text, images, users, product or any information) into numerical vectors(array of numbers) Ex - [2,5], [3,8,7], [0.12, -3.5, 4.29] etc
-- 
+-- It turns information into a form on which computers can perform mathematical operations.
+- Embedding - An embedding is a learned numerical representation of an item that captures useful relationships with other items
   
