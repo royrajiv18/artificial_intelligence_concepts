@@ -31,4 +31,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Dimensions in an embedding - Ex - King = [1.2, 0.4, ....] ; more dimension != more intelligence
 - A model specific embedding may contain hundreds or thousands of values.
 - Higher dimensions can capture more complex patterns but they also require more storage and computation.
+  - Through training, the numerical representations are adjusted so that useful relationships become encoded in the vector space.
   
