@@ -33,4 +33,6 @@ Id - 10, 11, 12, 13, 14, 15
 - Higher dimensions can capture more complex patterns but they also require more storage and computation.
   - Through training, the numerical representations are adjusted so that useful relationships become encoded in the vector space.
   - - Semantic similarity - it measures how close two pieces of texts are in meaning. An embedding based system can represent two queries in vector and discover that they are very close in meaning.
-  - Embeddings allow systems to compare broader meaning rather than only matching identical words. 
+  - Embeddings allow systems to compare broader meaning rather than only matching identical words.
+  - Cosine similarity - compares angle b/w two vectors, focuses more on direction than on absolute length
+  - Token embeddings - This process replaces a meaningless token ID with a dense numerical vector. That vector becomes the model's initial representation of the token. Because the representaion may later change as the model process context.
