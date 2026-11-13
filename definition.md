@@ -36,3 +36,4 @@ Id - 10, 11, 12, 13, 14, 15
   - Embeddings allow systems to compare broader meaning rather than only matching identical words.
   - Cosine similarity - compares angle b/w two vectors, focuses more on direction than on absolute length
   - Token embeddings - This process replaces a meaningless token ID with a dense numerical vector. That vector becomes the model's initial representation of the token. Because the representaion may later change as the model process context.
+  - the embedding tells the model which token is present, positional information helps tell the model where that token appears. The model needs both identity and order.
