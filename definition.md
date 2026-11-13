@@ -41,3 +41,4 @@ Id - 10, 11, 12, 13, 14, 15
   - Static vs Contextual meaning - static assigns one single vector to the word.(not effective as same word has multiple meaning)
   - Polysemy - meaning depends on context as same word can have multiple meanings.
   - How modern LLMs handle context [Contextualisation] - In a transformer based language model, the token first recieves an initial token embedding. Then the model processes it together with the surrounding tokens. Through multiple layers, the representations become contextualised. It handles Polysemy.
+  - Bias in embedding - human created data have a lot of flaws, as a result, embeddings can also encode undesirable associations
