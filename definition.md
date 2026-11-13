@@ -32,4 +32,5 @@ Id - 10, 11, 12, 13, 14, 15
 - A model specific embedding may contain hundreds or thousands of values.
 - Higher dimensions can capture more complex patterns but they also require more storage and computation.
   - Through training, the numerical representations are adjusted so that useful relationships become encoded in the vector space.
+  - - Semantic similarity - it measures how close two pieces of texts are in meaning. An embedding based system can represent two queries in vector and discover that they are very close in meaning.
   
