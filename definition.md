@@ -37,4 +37,7 @@ Id - 10, 11, 12, 13, 14, 15
   - Cosine similarity - compares angle b/w two vectors, focuses more on direction than on absolute length
   - Token embeddings - This process replaces a meaningless token ID with a dense numerical vector. That vector becomes the model's initial representation of the token. Because the representaion may later change as the model process context.
   - the embedding tells the model which token is present, positional information helps tell the model where that token appears. The model needs both identity and order.
-  - Token embedding vs Text embedding - token embedding helps a language model process a sequence internally. Text embeddings are often produced specifically for tasks such as search, retrieval, clustering, recommendations, classification, duplicate detection
+  - Token embedding vs Text embedding - token embedding helps a language model process a sequence internally. Text embeddings are often produced specifically for tasks such as search, retrieval, clustering, recommendations, classification, duplicate detection.
+  - Static vs Contextual meaning - static assigns one single vector to the word.(not effective as same word has multiple meaning)
+  - Polysemy - meaning depends on context as same word can have multiple meanings.
+  - How modern LLMs handle context [Contextualisation] - In a transformer based language model, the token first recieves an initial token embedding. Then the model processes it together with the surrounding tokens. Through multiple layers, the representations become contextualised. It handles Polysemy.
