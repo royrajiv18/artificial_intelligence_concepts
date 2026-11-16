@@ -45,3 +45,9 @@ Id - 10, 11, 12, 13, 14, 15
   - GPT - Generative Pre-trained Transformer
   - A Transformer is a type of neural network architecture designed to process sequences of information using attention.
   - Layer normalisation is a technique used to keep the numbers flowing through a neural network at a more stable scale.
+  - Multi Head Causal/Masked Self Attention - 
+  -- Self Attention - self attention lets each token gather information from other tokens in the same sequence
+    -- Causal self attention(masked) - A token can look at itself and tokens before it, but never future tokens.
+    -- Multihead - Run multiple self attention in parallel.
+- Residual/ Skip connection - Instead of completely replacing the old information with the output of a layer, we add the original input back to the layer's output.
+- Ex - original -> [1,2,3] ; attention ->  [0.2,-0.5, 0.7]; output - [1.2, 1.5, 3.7]
