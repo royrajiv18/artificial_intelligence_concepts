@@ -51,3 +51,11 @@ Id - 10, 11, 12, 13, 14, 15
     -- Multihead - Run multiple self attention in parallel.
 - Residual/ Skip connection - Instead of completely replacing the old information with the output of a layer, we add the original input back to the layer's output.
 - Ex - original -> [1,2,3] ; attention ->  [0.2,-0.5, 0.7]; output - [1.2, 1.5, 3.7]
+- Feed Forward 
+  -- During self attention - tokens interact with each other - (Attention lets token communicate)
+  -- During Feed forward network - each token is processed independently - (FFN lets each token think/process what it learnt)
+- Linear and Softmax - 
+-- arbitrary scores often called logits, its difficult to interpret them directly, softmax converts them into values between 0 and 1 that sum up to 1
+  - Now we can interpret them as a probability distribution
+  - 
+
