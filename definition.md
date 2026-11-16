@@ -57,5 +57,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Linear and Softmax - 
 -- arbitrary scores often called logits, its difficult to interpret them directly, softmax converts them into values between 0 and 1 that sum up to 1
   - Now we can interpret them as a probability distribution
-  - 
+  - Q-K-V (Query key value)
 
