@@ -58,4 +58,4 @@ Id - 10, 11, 12, 13, 14, 15
 -- arbitrary scores often called logits, its difficult to interpret them directly, softmax converts them into values between 0 and 1 that sum up to 1
   - Now we can interpret them as a probability distribution
   - Q-K-V (Query key value)
-
+- Training of Neural Network - A neural n/w contains a huge collection of adjustable numbers, the parameters. During training, we repeatedly modify those parameters so that the model becomes better at a particular objective. For a neural network, learning becomes adjusting parameters so that future predictions becomes better.
