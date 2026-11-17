@@ -59,3 +59,5 @@ Id - 10, 11, 12, 13, 14, 15
   - Now we can interpret them as a probability distribution
   - Q-K-V (Query key value)
 - Training of Neural Network - A neural n/w contains a huge collection of adjustable numbers, the parameters. During training, we repeatedly modify those parameters so that the model becomes better at a particular objective. For a neural network, learning becomes adjusting parameters so that future predictions becomes better.
+- Do Parameters store knowledge - No, they are just random numbers but they have pattern hidden inside it that is learned through training data and now when you pass something into it, it does some calculation and gives correct output
+- how is it related to training data - it is all the information passed to LLM on which it is trained.
