@@ -70,3 +70,6 @@ Id - 10, 11, 12, 13, 14, 15
 - Batch Gradient descent - uses the entire dataset to compute the gradient for each step; stable but slow on huge dataset. Challanges - Learning rate too small, Training takes forever.
 - Stochastic Gradient descent(SGD) - Uses a single data point per step; fast but noisy and fluctuates. Challenges - Learning rate too large, the algorithm overshoots the minimum and fails to converge.
 -  Mini batch gradient descent - Splits data into small subsets; strikes the best balance b/w speed and stability. Challenges - Local minima or saddle points. The system can get stuck when the slope is flat.
+-  Forward Pass - It means one pass through neural n/w to generate one output by prediction
+
+-  Sample Data -> Forward Pass -> Calculate Loss -> Back Propagation -> Optimiser/ Gradient descent -> Better Model
