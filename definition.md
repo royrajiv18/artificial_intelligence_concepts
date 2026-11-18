@@ -78,4 +78,8 @@ Id - 10, 11, 12, 13, 14, 15
    - Dataset - All training examples
    - Batch - A group of examples processed together; batch of examples -> calculate average loss -> update parameters
    - Training step - One optimisation update
-   - Epoch - One pass through a training dataset 
+   - Epoch - One pass through a training dataset
+- training vs inference
+  - Training - Input -> Forward pass -> prediction -> calculate loss -> back propagation -> update parameters
+  - Inference - Input -> Forward pass -> prediction -> output
+  Training changes the model; Inference just uses the model
