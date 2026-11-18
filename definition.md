@@ -62,4 +62,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Do Parameters store knowledge - No, they are just random numbers but they have pattern hidden inside it that is learned through training data and now when you pass something into it, it does some calculation and gives correct output
 - how is it related to training data - it is all the information passed to LLM on which it is trained.
 - Forward Pass - (need to add)
-- Back propagation - It calculates how changing each parameter would affect the loss.
+- Back propagation - It calculates how changing each parameter would affect the loss. It starts from the error at the output and works backward. It calculates the sensitivity of the loss to each parameter. Mathematically these sensitivities are called gradients.
+- Gradient - A gradient tells us which direction a parameter should move to change the loss and how sensitive the loss is to that parameter.
