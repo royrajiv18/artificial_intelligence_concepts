@@ -84,5 +84,5 @@ Id - 10, 11, 12, 13, 14, 15
   - Inference - Input -> Forward pass -> prediction -> output
 - Training changes the model; Inference just uses the model
 - Generalisation - That ability to perform well on examples it did not directly memorise is called generalisation
-  -- Good learning means discovering patterns that remains useful beyond the exact training examples.
+- Good learning means discovering patterns that remains useful beyond the exact training examples.
 - Overfitting - A model is overfitting when it becomes extremely good at its training examples but performs poorly on new examples. A useful model should generalise.
