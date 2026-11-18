@@ -73,3 +73,9 @@ Id - 10, 11, 12, 13, 14, 15
 -  Forward Pass - It means one pass through neural n/w to generate one output by prediction
 
 -  Sample Data -> Forward Pass -> Calculate Loss -> Back Propagation -> Optimiser/ Gradient descent -> Better Model
+-  Self supervised learning - Model learns by itself; no manual intervention required; the next token becomes the target.
+-  Some AI terms - 
+   - Dataset - All training examples
+   - Batch - A group of examples processed together; batch of examples -> calculate average loss -> update parameters
+   - Training step - One optimisation update
+   - Epoch - One pass through a training dataset 
