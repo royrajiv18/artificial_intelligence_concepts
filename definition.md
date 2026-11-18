@@ -82,4 +82,4 @@ Id - 10, 11, 12, 13, 14, 15
 - training vs inference
   - Training - Input -> Forward pass -> prediction -> calculate loss -> back propagation -> update parameters
   - Inference - Input -> Forward pass -> prediction -> output
-  Training changes the model; Inference just uses the model
+- Training changes the model; Inference just uses the model
