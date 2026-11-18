@@ -67,6 +67,6 @@ Id - 10, 11, 12, 13, 14, 15
 - Does back propagation fix the weights/parameters - it does not itself necessarily update the weights. It calculates gradient. Then an optimisation algorithm uses those gradients to update the parameters/weights.
 - Gradient Descent - It is an iterative optimization algorithm used to minimize a function(like error or loss) by adjusting parameters in the opposite direction of the gradient. Core components - loss function, gradient, learning rate.
 - Main types of gradient descent -
-  -- Batch Gradient descent - uses the entire dataset to compute the gradient for each step; stable but slow on huge dataset. Challanges - Learning rate too small, Training takes forever.
-  -- Stochastic Gradient descent(SGD) - Uses a single data point per step; fast but noisy and fluctuates. Challenges - Learning rate too large, the algorithm overshoots the minimum and fails to converge.
-  -- Mini batch gradient descent - Splits data into small subsets; strikes the best balance b/w speed and stability. Challenges - Local minima or saddle points. The system can get stuck when the slope is flat.
+- Batch Gradient descent - uses the entire dataset to compute the gradient for each step; stable but slow on huge dataset. Challanges - Learning rate too small, Training takes forever.
+- Stochastic Gradient descent(SGD) - Uses a single data point per step; fast but noisy and fluctuates. Challenges - Learning rate too large, the algorithm overshoots the minimum and fails to converge.
+-  Mini batch gradient descent - Splits data into small subsets; strikes the best balance b/w speed and stability. Challenges - Local minima or saddle points. The system can get stuck when the slope is flat.
