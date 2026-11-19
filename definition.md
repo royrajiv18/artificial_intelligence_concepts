@@ -89,5 +89,6 @@ Id - 10, 11, 12, 13, 14, 15
 - Distributed training - training frontier scale models is a large distributed systems problem as much as a machine learning problem.
 - Pre training -> Training -> Post Training
 - Common Crawl maintains a free, open repository of web crawl data that can be used by anyone. Raw web pages are messy, a downloaded webpage isn't clean training text.
-- FineWeb is essentially a Common Crawl data that Hugging Face has processed into a much cleaner dataset specifically for LLM pretraining (15 trillion tokens, 44 TB disc space)
+- FineWeb is essentially a Common Crawl data that Hugging Face has processed into a much cleaner dataset specifically for LLM pretraining (15 trillion tokens, 44 TB disc space). Fine Web Edu focuses on educational content only.
 - URL Filtering -> Text extraction -> Deduplication -> PII removal -> clean text output
+- Building an LLM isn't only about designing the neural network. Building a high quality training dataset is itself a huge engineering and research problem.
