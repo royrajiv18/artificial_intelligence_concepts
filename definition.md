@@ -92,3 +92,9 @@ Id - 10, 11, 12, 13, 14, 15
 - FineWeb is essentially a Common Crawl data that Hugging Face has processed into a much cleaner dataset specifically for LLM pretraining (15 trillion tokens, 44 TB disc space). Fine Web Edu focuses on educational content only.
 - URL Filtering -> Text extraction -> Deduplication -> PII removal -> clean text output
 - Building an LLM isn't only about designing the neural network. Building a high quality training dataset is itself a huge engineering and research problem.
+- Pre Training - Crawl internet, refine data -> clean text
+- Training - tokenize, transformer, training repeat -> Base model
+- Post Training - (need to add)
+- Base model - A base model is a partially trained model before it has been heavily shaped into a conversational assistant through instruction and preference based post training
+- Base model is just predicting next token
+- ChatGPT is helpful assistant built to answer queries.
