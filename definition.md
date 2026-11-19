@@ -86,4 +86,6 @@ Id - 10, 11, 12, 13, 14, 15
 - Generalisation - That ability to perform well on examples it did not directly memorise is called generalisation
 - Good learning means discovering patterns that remains useful beyond the exact training examples.
 - Overfitting - A model is overfitting when it becomes extremely good at its training examples but performs poorly on new examples. A useful model should generalise.
-- Distributed training - training frontier scale models is a large distributed systems problem as much as a machine learning problem. 
+- Distributed training - training frontier scale models is a large distributed systems problem as much as a machine learning problem.
+- Pre training -> Training -> Post Training
+- Common Crawl maintains a free, open repository of web crawl data that can be used by anyone. Raw web pages are messy, a downloaded webpage isn't clean training text.
