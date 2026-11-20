@@ -104,3 +104,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Instruction tuning - It is a type of fine tuning focused specifically to follow instructions.
    -- Process remains the same: input -> prediction -> calculate loss -> back propagation -> update parameters
 - Diversity matters a lot while training - so instruction dataset should contain many categories and phrasing.
+- Knowledge of self is hardcoded - ex - who are you, who built you etc.
+- 
