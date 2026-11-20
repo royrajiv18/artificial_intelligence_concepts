@@ -99,4 +99,6 @@ Id - 10, 11, 12, 13, 14, 15
 - Base model is just predicting next token
 - ChatGPT is helpful assistant built to answer queries.
 - Post Training - How should the model behave - Follow instructions, answer questions, use desired tone, refuse appropriately, admit uncertainty, structure output, behave conversationally
-- Supervised Fine tuning (SFI) - Fine tuning means continuing training of an already pretrained model on a smaller, more targeted dataset.
+- Supervised Fine tuning (SFI) - Fine tuning means continuing training of an already pretrained model on a smaller, more targeted dataset. 
+- Fine tuning does not introduce a new learning mechanism. It changes what examples models learn from.
+- Instruction tuning - It is a type of fine tuning focused specifically to follow instructions.
