@@ -102,3 +102,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Supervised Fine tuning (SFI) - Fine tuning means continuing training of an already pretrained model on a smaller, more targeted dataset. 
 - Fine tuning does not introduce a new learning mechanism. It changes what examples models learn from.
 - Instruction tuning - It is a type of fine tuning focused specifically to follow instructions.
+   -- Process remains the same: input -> prediction -> calculate loss -> back propagation -> update parameters
+- Diversity matters a lot while training - so instruction dataset should contain many categories and phrasing.
