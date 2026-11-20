@@ -105,4 +105,11 @@ Id - 10, 11, 12, 13, 14, 15
    -- Process remains the same: input -> prediction -> calculate loss -> back propagation -> update parameters
 - Diversity matters a lot while training - so instruction dataset should contain many categories and phrasing.
 - Knowledge of self is hardcoded - ex - who are you, who built you etc.
-- 
+- Conversation formatting - model needs a structured format like - {user: ..., system: ...}
+- Roles : 
+- System prompts are of highest priority like - you are a helpful assistant, answer as a concise programming tutor
+- User - the human request
+- Assistant - previous or generated assistant responses
+- tool messages - additional roles
+- Human Preference - Real people rank the results
+- Generator vs Discriminator evaluation Gap - humans may find it difficult to generate the ideal answer from scratch but easier to discriminate b/w better and worse answer.
