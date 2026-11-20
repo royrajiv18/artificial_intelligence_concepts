@@ -98,3 +98,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Base model - A base model is a partially trained model before it has been heavily shaped into a conversational assistant through instruction and preference based post training
 - Base model is just predicting next token
 - ChatGPT is helpful assistant built to answer queries.
+- Post Training - How should the model behave - Follow instructions, answer questions, use desired tone, refuse appropriately, admit uncertainty, structure output, behave conversationally
+- Supervised Fine tuning (SFI) - Fine tuning means continuing training of an already pretrained model on a smaller, more targeted dataset.
