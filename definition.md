@@ -116,8 +116,13 @@ Id - 10, 11, 12, 13, 14, 15
 - Reward model - clone of human judgement - collect human preferences - train another model on it
 - Reinforced learning with human feedback(RLHF) - The reward model evaluates the assistant model - 
   -- user prompt -> assistant model -> Response -> Reward Model -> Reward Score -> Update assistant model -> Generates better responses
+-- Important points --
 - Random Model -> Base Model -> SFT Model -> Preference trained model
     -- Random model training by extracted data from internet
     -- Base model training by supervise fine tuning / instructions
     -- SFT model - Human preferences used to create a reward model; reward model evaluates and improves results
-    -- Preference trained model - gives much better results, ready to use in assistants 
+    -- Preference trained model - gives much better results, ready to use in assistants
+- training teaches the model a huge amount about language and the world, Post training teaches it how we want that capability to behave when a human asks for help. We just don't want autocomplete, we need helpful answers.
+- RLHF negative points -   humans disagree with each other; humans can confidently wrong answer; human feedback is time and coss expensive; human reviewers cannnot check everything
+- A reward model is not human judgement, It is a learned approximation of a limited sample of human judgements. It is a lossy simulation of human preferences (compressed scoring, useful for scoring but its over simplification)
+- Reward hacking - 
