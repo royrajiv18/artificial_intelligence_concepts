@@ -114,4 +114,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Human Preference - Real people rank the results
 - Generator vs Discriminator evaluation Gap - humans may find it difficult to generate the ideal answer from scratch but easier to discriminate b/w better and worse answer.
 - Reward model - clone of human judgement - collect human preferences - train another model on it
-- 
+- Reinforced learning with human feedback(RLHF) - The reward model evaluates the assistant model - 
+  -- user prompt -> assistant model -> Response -> Reward Model -> Reward Score -> Update assistant model -> Generates better responses
