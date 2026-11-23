@@ -116,3 +116,8 @@ Id - 10, 11, 12, 13, 14, 15
 - Reward model - clone of human judgement - collect human preferences - train another model on it
 - Reinforced learning with human feedback(RLHF) - The reward model evaluates the assistant model - 
   -- user prompt -> assistant model -> Response -> Reward Model -> Reward Score -> Update assistant model -> Generates better responses
+- Random Model -> Base Model -> SFT Model -> Preference trained model
+    -- Random model training by extracted data from internet
+    -- Base model training by supervise fine tuning / instructions
+    -- SFT model - Human preferences used to create a reward model; reward model evaluates and improves results
+    -- Preference trained model - gives much better results, ready to use in assistants 
