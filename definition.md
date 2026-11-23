@@ -125,4 +125,5 @@ Id - 10, 11, 12, 13, 14, 15
 - training teaches the model a huge amount about language and the world, Post training teaches it how we want that capability to behave when a human asks for help. We just don't want autocomplete, we need helpful answers.
 - RLHF negative points -   humans disagree with each other; humans can confidently wrong answer; human feedback is time and coss expensive; human reviewers cannnot check everything
 - A reward model is not human judgement, It is a learned approximation of a limited sample of human judgements. It is a lossy simulation of human preferences (compressed scoring, useful for scoring but its over simplification)
-- Reward hacking - 
+- Reward hacking - reward hacking occurs when a system finds ways to achieve high measured reward without satisfying the underlying objective we actually intended. When we optimise a measurement, the model may learn how to score well rather than how to fulfill the real goal. If AI becomes extremely good at maximising the reward model's score. It may discover shortcuts. Ex - long answer != correct answer
+- Good Hart law intuition - once a metric becomes the target, it can stop being a good metric, if we keep chasing good score, it not necessarily increase usefulness, called reward over optimization
