@@ -130,3 +130,6 @@ Id - 10, 11, 12, 13, 14, 15
 - Thinking vs Reasoning - 
 - Thinking is the broaderprocess of processing information, generating ideas, exploring possibilities and arriving at an answer.
 - Reasoning is the logical process of connecting facts, applying rules and drawing conclusions to solve a problem
+- Direct generation vs Reasoning oriented generation-
+    -- Question -> Model -> Answer
+    -- Question -> Intermediate computation -> Possible approach -> Check -> Revision -> Answer
