@@ -133,3 +133,5 @@ Id - 10, 11, 12, 13, 14, 15
 - Direct generation vs Reasoning oriented generation-
     -- Question -> Model -> Answer
     -- Question -> Intermediate computation -> Possible approach -> Check -> Revision -> Answer
+- Reasoning Models -an intermediate calculation step - Reasoning models attempt to bring more of this delebrate computation into inference
+- Chain of thought - Chain of thought broadly refers to producing intermediate reasoning steps before arriving at an answer
