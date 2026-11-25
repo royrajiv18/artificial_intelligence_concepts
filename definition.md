@@ -135,3 +135,4 @@ Id - 10, 11, 12, 13, 14, 15
     -- Question -> Intermediate computation -> Possible approach -> Check -> Revision -> Answer
 - Reasoning Models -an intermediate calculation step - Reasoning models attempt to bring more of this delebrate computation into inference
 - Chain of thought - Chain of thought broadly refers to producing intermediate reasoning steps before arriving at an answer
+- Reinforcement learning with verifiable results (RLVR) - maths, coding etc are verifiable results, quality of joke, art is not verifiable by machines
