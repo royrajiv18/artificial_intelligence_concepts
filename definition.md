@@ -136,3 +136,12 @@ Id - 10, 11, 12, 13, 14, 15
 - Reasoning Models -an intermediate calculation step - Reasoning models attempt to bring more of this delebrate computation into inference
 - Chain of thought - Chain of thought broadly refers to producing intermediate reasoning steps before arriving at an answer
 - Reinforcement learning with verifiable results (RLVR) - maths, coding etc are verifiable results, quality of joke, art is not verifiable by machines
+- Types of evaluations -
+    -- Deterministic evaluator - maths, code, unit test
+    -- Human evaluator - human as a judge
+    -- Model evaluator - another LLM as a judge
+Tree of thought - better and can give multiple options, better than chain of thought
+Greaph of thoughts - better than tree of thought, ideas can combine
+So, chain of thought explores one path, tree of thought explores alternatives, graph of thought allows useful ideas to reconnect and combine
+Visible reasoning is not necessarily faithful
+More thinking != guaranteed correctness
